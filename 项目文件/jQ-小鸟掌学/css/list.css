@@ -1,0 +1,132 @@
+.content_wrap{
+	width: 1100px;
+	margin: 0 auto;
+	padding-top: 120px;
+	overflow: hidden;
+}
+.content_wrap>h1:nth-child(1){
+	line-height: 60px;
+	text-align: center;
+	font-size: 54px;
+	color: #311759;
+}
+.content_wrap>h2{
+	font-weight: normal;
+	font-size: 18px;
+	letter-spacing: 6px;
+	color: #311759;
+	text-align: center;
+}
+.content_wrap>img:nth-child(3){
+	display: block;
+	margin: 15px auto 0px;
+}
+.title_list{
+	color: #311759;
+	font-size: 30px;
+	height: 60px;
+	position: relative;
+	background: url(../images/pen_line_long.png) no-repeat 0 58px;
+}
+.title_list>.pen{
+	width: 61px;
+	height: 58px;
+	position: absolute;
+	right: 0px;
+	top: 7px;
+	background: url(../images/pen_list.png) no-repeat;
+	cursor: pointer;
+}
+.title_list>.pen:hover{
+	background-position: -61px 0;
+}
+.list_content{
+	width: 1130px;
+	height: auto;
+	margin-top: 40px;
+}
+.list_content>li{
+	width: 513px;
+	height: 202px;
+	float: left;
+	background: #fff;
+	padding: 36px 0 0 20px;
+	margin: 0 20px 30px 0;
+	border: 1px solid #fff;
+	cursor: pointer;
+	position: relative;
+}
+.list_content>li:hover{
+	border-color: #86759e;
+	transform: translateY(-6px);
+	transition: all 0.3s ease 0s;
+}
+.img_wrap{
+	height: 168px;
+	width: 260px;
+	overflow: hidden;
+	float: left;
+	margin-right: 17px;
+}
+.content_text{
+	width: 221px;
+	float: left;
+}
+.title_small{
+	height: 41px;
+	width: 221px;
+	font-size: 20px;
+	color: #454548;
+	line-height: 26px;
+	max-height: 53px;
+	overflow: hidden;
+	margin-top: 15px;
+}
+.date{
+	height: 17px;
+	width: 221px;
+	margin-top: 2px;
+	font-size: 14px;
+}
+.content_text>p{
+	width: 221px;
+	line-height: 25px;
+	max-height: 75px;
+	margin-top: 8px;
+	color: #47464a;
+	overflow: hidden;
+	letter-spacing: 0px;
+	font-size: 15px;
+}
+.list_content>li>img{
+	position: absolute;
+	left: 0px;
+	top: 36px;
+}
+.list_content>li:hover>img{
+	transition: all 0.3s ease 0s;
+	top: 36px;
+	left: 50px;
+}
+.mygd{
+	width: 107px;
+	display: block;
+	margin: 30px auto 0;
+}
+.list_more{
+	height: 58px;
+	width: 58px;
+	margin: 15px auto 130px;
+	background: url(../images/lis_more_btn_bg.png) no-repeat 0 -58px;
+	cursor: pointer;
+}
+.list_more:hover{
+	background-position: 0 0;
+	transition: all 0.3s ease 0s;
+}
+.link_footer_img{
+	background: url(../images/map_bottomimg.png) top center no-repeat;
+	height: 33px;
+	width: 100%;
+	min-width: 1100px;
+}

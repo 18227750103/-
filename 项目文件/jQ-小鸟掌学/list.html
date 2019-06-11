@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>文章列表</title>
+	<link rel="shortcut icon" type="text/css" href="images/aboutxiaoniao/xiaoniao_welcome_icon3.gif"/>
+	<link rel="stylesheet" type="text/css" href="../animate.css"/>
+	<link rel="stylesheet" type="text/css" href="../common.css"/>
+	<link rel="stylesheet" type="text/css" href="css/list.css"/>
+	<script src="../jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/listData.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/list.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body style="background: #f1f2f6;">
+	<div class="head"></div>
+	<div class="content_wrap">
+		<h1>小鸟动态</h1>
+		<h2>About Company</h2>
+		<img src="images/three_points01.png"/>
+		<h1 class="title_list">
+			列表
+			<span class="pen"></span>
+		</h1>
+		<ul class="list_content" id="articleList">
+			<!--<li class="content-one">
+				<div class="img_wrap">
+					<img src="images/list_img01.jpg"/>
+				</div>
+				<div class="content_text">
+					<div class="title_small"></div>
+					<div class="date"></div>
+					<p>小鸟掌学创建于2014年初，起源服务于四川省专业技术人员继续教育基地的在线培训平台</p>
+				</div>
+				<img src="images/list_img_over_xiaojiantou.png"/>
+			</li>-->
+		</ul>
+		<ul id="itemHtml" style="display: none;">
+			<li class="content-one" articleId = "articleId">
+				<div class="img_wrap">
+					<img src="images/list_img01.jpg"/>
+				</div>
+				<div class="content_text">
+					<div class="title_small">$articleTitle$</div>
+					<div class="date">$updateTime$</div>
+					<p>$describe$</p>
+				</div>
+				<img src="images/list_img_over_xiaojiantou.png"/>
+			</li>
+		</ul>
+	</div>
+	<div class="mygd">
+		<img src="images/list_gomore_bg.jpg"/>
+		<img src="images/list_gomore_bg_nomore.jpg"/ style="display: none;">
+	</div>
+	<div class="list_more"></div>
+	<div class="link_footer_img"></div>
+	<div class="foot"></div>
+	<!--  右边固定  -->
+	<div id="guding"></div>
+</body>
+</html>
